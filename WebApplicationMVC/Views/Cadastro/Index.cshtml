@@ -1,0 +1,92 @@
+﻿
+@model WebApplicationMVC.ModelsViewData.CadastroViewData
+
+<div class="containerCdt">
+    <div class="row">
+        <div class="cadastro">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="row">
+                    <form action="@Url.Action("CadastroUsuario", "Cadastro")" method="post" class="needs-validation" name="cadastro" novalidate>
+                        <h1>Fazer Cadastro</h1>
+                        <div class="form-group row formCad">
+                            <label for="txt" class="col-form-label row">Nome da Empresa</label>
+                            <div class="col-lg-12 col-md-12  col-sm-12 col-xl-12 col-12 col-form-label">
+                                <input type="text" name="nome" class="form-control cad" id="nome" value="" placeholder="Insira o Nome" title="Nome" required>
+                                <div class="invalid-feedback">
+                                    Por favor, insira o Nome.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row formCad">
+                            <label for="txtEmail" class="col-form-label row">E-mail</label>
+                            <div class="col-lg-12 col-md-12  col-sm-12 col-xl-12 col-12 col-form-label">
+                                <input type="email" name="email" class="form-control cad" id="email" value="" placeholder="Ex: maria@gmail.com" title="Email" required>
+                                <div class="invalid-feedback">
+                                    Você precisa inserir seu E-mail.
+                                </div>
+                                <a href="#" id="manual-ajax"></a>
+                                <div class="modal">
+                                    <p>Emails diferentes!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row formCad">
+                            <label for="confEmail" class="col-form-label row">Repetir e-mail</label>
+                            <div class="col-lg-12 col-md-12  col-sm-12 col-xl-12 col-12 col-form-label">
+                                <input type="email" name="confEmail" class="form-control cad" oninput="validarEmail(this)" id="confEmail" value="" placeholder="Confirme seu e-mail" title="Repetir Email" required>
+                                <div class="invalid-feedback">
+                                    Por favor, confirme seu E-mail.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row formCad">
+                            <label for="validationCustom01" class="col-form-label row">Senha</label>
+                            <div class="col-lg-12 col-md-12  col-sm-12 col-xl-12 col-12 col-form-label">
+                                <input type="password" class="form-control cad" name="senha" id="senha" value="" placeholder="Crie uma senha" required>
+                                <div class="invalid-feedback">
+                                    Você precisa criar uma Senha.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row formCad">
+                            <label for="validationCustom01" class="col-form-label row">Repetir senha</label>
+                            <div class="col-lg-12 col-md-12  col-sm-12 col-xl-12 col-12 col-form-label">
+                                <input type="password" class="form-control cad" name="confSenha" id="confSenha" value="" placeholder="Confirme sua senha" required>
+                                <div class="invalid-feedback">
+                                    Por favor, confirme sua Senha.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-cadastro">
+                            <button type="submit" id="botaoCad" class="btn btn-primary" onclick="verificaEmail">CADASTRAR</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+@section scripts{
+    <script type="text/javascript">
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                var forms = document.getElementsByClassName('needs-validation');
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+}

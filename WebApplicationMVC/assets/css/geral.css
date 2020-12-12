@@ -1,0 +1,395 @@
+﻿body {
+    background-image: url(../images/Fundo_Site.jpg);
+    background-size: cover;
+    color: white;
+}
+/*#region INDEX*/
+.carousel {
+    padding:10%;
+}
+.body-content{
+    min-height:86.4vh;
+}
+.homePage {
+    display: flex;
+    flex-direction:column;
+    align-content: center;
+    justify-content: center;
+    height:100%;
+    width: 100%;
+}
+/*#endregion INDEX*/
+/*#region CERTIFICADOS*/
+.homeCertificados {
+    text-align: center;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.certificados{
+    padding-left:5%;
+    padding-top:5%;
+}
+.card {
+    display: inline-block;
+    margin: 5%;
+    margin-top: 3%;
+    color: black;
+    cursor: pointer;
+}
+    .card:hover {
+        border: solid rgb(154, 11, 173);
+    }
+.card-title {
+    font-weight: bold;
+}
+/*#endregion CERTIFICADOS*/
+/*#region FOOTER*/
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f9fa;
+    font-size: 85%;
+    font-weight: 600;
+    margin-top: auto;
+    padding: 0.5%;
+    bottom: 0px;
+    width: 100%;
+}
+.midia {
+    font-size: 25px;
+    display: contents;
+}
+.facebook {
+    color: blue;
+    padding-left: 5%;
+}
+.github {
+    color: rebeccapurple;
+    padding-left: 5%;
+}
+.linkedin {
+    color: blue;
+    padding-left: 5%;
+}
+.whatsapp {
+    color: green;
+    padding-left: 5%;
+}
+.email i {
+    color: darkslategray;
+    padding-left: 3%;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    line-height: 15px;
+}
+/*#endregion FOOTER*/
+/*#region HOME SOBRE*/
+.cont_sobre {
+    color: black;
+    background-color: white;
+    margin: 5%;
+}
+.caixa_sobre {
+    margin-bottom: 7%;
+}
+.titulo_sobre {
+    text-align: center;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+.imagem_sobre {
+    width: 30%;
+}
+    .imagem_sobre img {
+        margin-left: 40%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        background-color: white;
+    }
+.tema_sobre {
+    font-family: Courier, monospace;
+    font-weight: bolder;
+    margin-top: 2%;
+    width: 70%;
+    height: min-content;
+}
+.paragrafo_sobre {
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+.listas_sobre {
+    margin-left: 30%;
+    margin-right: 7%;
+    margin-bottom: 3%;
+    margin-top: -5%;
+    font-size: 1.1rem;
+    width: 100%;
+}
+.list_fomr li {
+    margin-bottom: 3%;
+}
+/*#endregion HOME SOBRE*/
+/*#region CADASTRO*/
+.containerCdt {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.cadastro {
+    height: auto;
+    width: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 5%;
+}
+.needs-validation h1 {
+    font-weight: bold;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-size: 35px;
+}
+.formCad {
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+    .formCad label {
+        padding-left: 8%;
+    }
+.cad {
+    border-radius: 25px;
+    background-color: gainsboro;
+    color: black;
+    padding-left: 35px;
+    height: 45px;
+    font-size: 75%;
+}
+.col-form-label {
+    font-weight: 600;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    font-size: large;
+}
+.btn-cadastro {
+    width: 100%;
+}
+    .btn-cadastro button {
+        width: 50%;
+        height: 45px;
+    }
+/*endregion CADASTRO*/
+/*#region LOGIN*/
+.containerLgn {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.image {
+    width: 100%;
+    height: 100%;
+}
+    .image img {
+        width: 75%;
+        transform: translate(10px, 50px);
+    }
+.login {
+    height: auto;
+    width: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.formulario {
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .formulario h1 {
+        font-weight: bold;
+        padding-top: 10%;
+        padding-bottom: 5%;
+        font-size: 35px;
+    }
+.form-group {
+    width: 75%;
+    display: inline-flex;
+    margin-bottom: 3%;
+}
+    .form-group i {
+        text-align: left;
+    }
+.form-control {
+    border-radius: 25px;
+    background-color: gainsboro;
+    color: black;
+    padding-left: 35px;
+    height: 35px;
+    font-size: 75%;
+}
+.fa-envelope, .fa-lock {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 12px;
+    font-size: 12px;
+}
+.btn-login {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+    .btn-login button {
+        width: 55%;
+    }
+.btn-primary {
+    background-color: #34b034;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    border: none;
+    font-size: 75%;
+}
+.creat {
+    margin-top: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+    .creat a {
+        font-size: 85%;
+        font-weight: 600;
+        color: black;
+        padding-bottom: 10%
+    }
+
+        .creat a:hover {
+            color: blue;
+        }
+/*endregion LOGIN*/
+
+
+
+
+
+
+/*#region Media Query*/
+/*Tablet xl*/
+@media only screen and (max-width: 993px) and (min-width: 769px) {
+    .formulario h1, .needs-validation h1 {
+        font-size: 30px;
+    }
+    footer {
+        padding: 1%;
+    }
+    .login {
+        margin-top: 16%;
+        margin-bottom: 15%;
+    }
+    .imagem_sobre img {
+        margin-left: 30%;
+    }
+    .tema_sobre {
+        font-size: 30px;
+        margin-left: 5%;
+        width: 60%;
+    }
+}
+/*Tablet*/
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+    .formulario h1, .needs-validation h1 {
+        font-size: 25px;
+    }
+    .login {
+        margin-top: 25%;
+        margin-bottom: 24%;
+    }
+    .imagem_sobre img {
+        margin-left: 30%;
+        padding: 10%;
+    }
+    .tema_sobre {
+        margin-top: 5%;
+        width: 50%;
+        margin-left: 15%;
+        font-size: 30px;
+    }
+    .listas_sobre {
+        margin-left: 40%;
+        margin-right: 7%;
+        margin-bottom: 3%;
+        margin-top: -15%;
+        font-size: 1.1rem;
+        width: 100%;
+    }
+    .list_fomr {
+        margin-left: 5%;
+        margin-top: 1%;
+    }
+    .container {
+        padding-top:10%;
+    }
+}
+/*Mobile*/
+@media only screen and (max-width: 575px) {
+    .image img {
+        transform: translate(0px, 0px);
+    }
+    .formulario h1, .needs-validation h1 {
+        font-size: 25px;
+        padding-top: 10px;
+    }
+    footer {
+        padding: 3%;
+    }
+    .midia {
+        font-size: 15px;
+    }
+    .email i {
+        font-size: 15px;
+        line-height: 0px;
+    }
+    .login {
+        margin-top: 33%;
+        margin-bottom: 32%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .imagem_sobre img {
+        margin-left: 20%;
+        width: 120px;
+        height: 120px;
+    }
+    .tema_sobre {
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+    }
+    .listas_sobre {
+        margin-left: 1%;
+        margin-top: 3%;
+    }
+    .container {
+        padding-top: 20%;
+    }
+    .homeCertificados {
+        padding-left: 2rem;
+    }
+
+/*endregion*/
+

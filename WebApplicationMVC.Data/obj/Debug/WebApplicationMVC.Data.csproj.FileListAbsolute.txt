@@ -1,0 +1,17 @@
+C:\Users\khaled\OneDrive\Desktop\ProjetoMVC\WebApplicationMVC.Data\bin\Debug\WebApplicationMVC.Data.dll
+C:\Users\khaled\OneDrive\Desktop\ProjetoMVC\WebApplicationMVC.Data\bin\Debug\WebApplicationMVC.Data.pdb
+C:\Users\khaled\OneDrive\Desktop\ProjetoMVC\WebApplicationMVC.Data\obj\Debug\WebApplicationMVC.Data.csprojAssemblyReference.cache
+C:\Users\khaled\OneDrive\Desktop\ProjetoMVC\WebApplicationMVC.Data\obj\Debug\WebApplicationMVC.Data.csproj.CoreCompileInputs.cache
+C:\Users\khaled\OneDrive\Desktop\ProjetoMVC\WebApplicationMVC.Data\obj\Debug\WebApplicationMVC.Data.dll
+C:\Users\khaled\OneDrive\Desktop\ProjetoMVC\WebApplicationMVC.Data\obj\Debug\WebApplicationMVC.Data.pdb
+C:\Users\khaled\OneDrive\Desktop\WebApplicationMVC\WebApplicationMVC.Data\bin\Debug\WebApplicationMVC.Data.dll
+C:\Users\khaled\OneDrive\Desktop\WebApplicationMVC\WebApplicationMVC.Data\bin\Debug\WebApplicationMVC.Data.pdb
+C:\Users\khaled\OneDrive\Desktop\WebApplicationMVC\WebApplicationMVC.Data\obj\Debug\WebApplicationMVC.Data.csprojAssemblyReference.cache
+C:\Users\khaled\OneDrive\Desktop\WebApplicationMVC\WebApplicationMVC.Data\obj\Debug\WebApplicationMVC.Data.csproj.CoreCompileInputs.cache
+C:\Users\khaled\OneDrive\Desktop\WebApplicationMVC\WebApplicationMVC.Data\obj\Debug\WebApplicationMVC.Data.dll
+C:\Users\khaled\OneDrive\Desktop\WebApplicationMVC\WebApplicationMVC.Data\obj\Debug\WebApplicationMVC.Data.pdb
+C:\Users\khaled\OneDrive\Desktop\WebApplicationMVC\WebApplicationMVC.Data\bin\Debug\log4net.dll
+C:\Users\khaled\OneDrive\Desktop\WebApplicationMVC\WebApplicationMVC.Data\bin\Debug\WebApplicationMVC.Model.dll
+C:\Users\khaled\OneDrive\Desktop\WebApplicationMVC\WebApplicationMVC.Data\bin\Debug\WebApplicationMVC.Model.pdb
+C:\Users\khaled\OneDrive\Desktop\WebApplicationMVC\WebApplicationMVC.Data\bin\Debug\log4net.xml
+C:\Users\khaled\OneDrive\Desktop\WebApplicationMVC\WebApplicationMVC.Data\obj\Debug\WebApplicationMVC.Data.csproj.CopyComplete

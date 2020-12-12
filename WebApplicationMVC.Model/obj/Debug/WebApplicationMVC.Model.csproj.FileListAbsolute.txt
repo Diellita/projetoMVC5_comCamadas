@@ -1,0 +1,12 @@
+C:\Users\khaled\OneDrive\Desktop\ProjetoMVC\WebApplicationMVC.Model\bin\Debug\WebApplicationMVC.Model.dll
+C:\Users\khaled\OneDrive\Desktop\ProjetoMVC\WebApplicationMVC.Model\bin\Debug\WebApplicationMVC.Model.pdb
+C:\Users\khaled\OneDrive\Desktop\ProjetoMVC\WebApplicationMVC.Model\obj\Debug\WebApplicationMVC.Model.csprojAssemblyReference.cache
+C:\Users\khaled\OneDrive\Desktop\ProjetoMVC\WebApplicationMVC.Model\obj\Debug\WebApplicationMVC.Model.csproj.CoreCompileInputs.cache
+C:\Users\khaled\OneDrive\Desktop\ProjetoMVC\WebApplicationMVC.Model\obj\Debug\WebApplicationMVC.Model.dll
+C:\Users\khaled\OneDrive\Desktop\ProjetoMVC\WebApplicationMVC.Model\obj\Debug\WebApplicationMVC.Model.pdb
+C:\Users\khaled\OneDrive\Desktop\WebApplicationMVC\WebApplicationMVC.Model\obj\Debug\WebApplicationMVC.Model.csprojAssemblyReference.cache
+C:\Users\khaled\OneDrive\Desktop\WebApplicationMVC\WebApplicationMVC.Model\obj\Debug\WebApplicationMVC.Model.csproj.CoreCompileInputs.cache
+C:\Users\khaled\OneDrive\Desktop\WebApplicationMVC\WebApplicationMVC.Model\obj\Debug\WebApplicationMVC.Model.dll
+C:\Users\khaled\OneDrive\Desktop\WebApplicationMVC\WebApplicationMVC.Model\obj\Debug\WebApplicationMVC.Model.pdb
+C:\Users\khaled\OneDrive\Desktop\WebApplicationMVC\WebApplicationMVC.Model\bin\Debug\WebApplicationMVC.Model.dll
+C:\Users\khaled\OneDrive\Desktop\WebApplicationMVC\WebApplicationMVC.Model\bin\Debug\WebApplicationMVC.Model.pdb

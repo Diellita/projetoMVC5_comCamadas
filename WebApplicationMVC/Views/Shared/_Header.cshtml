@@ -1,0 +1,49 @@
+﻿<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="@Url.Action("Index","Home")">Dielle de Oliveira</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="@Url.Action("Index","Cadastro")">Cadastro <span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="@Url.Action("Index","Login")">Login <span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Saiba Mais
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="@Url.Action("Certificados","Home")">Certificados</a>
+                    <a class="dropdown-item" href="@Url.Action("Sobre","Home")">Sobre</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*<nav class="navbar navbar-toggler navbar-expand-lg navbar-light bg-light navbar-expand{-sm|-md|-lg|-xl}">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        @Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+        @Html.ActionLink("Cadastro", "About", "Home", new { area = "" }, new { @class = "navbar-brand" })
+        @Html.ActionLink("Login", "Index", "Login", new { area = "" }, new { @class = "navbar-brand" })
+        @Html.ActionLink("Sobre", "Contact", "Home", new { area = "" }, new { @class = "navbar-brand" })
+    </nav>*@
